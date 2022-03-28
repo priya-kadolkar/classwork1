@@ -111,23 +111,22 @@ header{
 .social_icons {
     display: flex;
     justify-content: space-between;
-    padding-left: 20px; 
     color: white;
     background-color: rgb(53, 55, 68);
 }
 .social_icons .last{
     display: inline-block;
     margin: 20px;
-    margin-left: 40px;
+}
+.social_icons .social_logos{
+    padding: 15px;
 }
 .social_icons li{
     list-style: none;
     text-decoration: none;
     display: inline-block;
-    margin: 20px;
-
+    margin-right: 10px;
 }
-
 .para_content{
     box-sizing: border-box;
     /* border: 1px solid white; */
